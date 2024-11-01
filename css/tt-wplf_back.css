@@ -1,0 +1,68 @@
+#icon-wplf {
+	background: transparent left top no-repeat url( TT_logo_icon.png );
+}
+span[class|="userlink"] {
+	line-height: 1.7rem;
+	font-size: 1rem;
+}
+.wplf-news {
+	clear: both;
+	padding-bottom: 5px;
+}
+.wplf-news .avatar {
+	float: left;
+	margin-right: 10px;
+}
+.wplf-news h2 {
+	font-size: 1rem;
+	line-height: .7rem;
+	padding-top: 0;
+}
+.wplf-news span.wplf-author {
+	font-size: .6rem;
+	line-height: .9rem;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+a.wplf_activity {
+	display: block;
+	margin-bottom: .3rem;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	font-size: .8rem;
+	line-height: 1.85rem;
+	color: #333333;
+}
+a.wplf_activity:hover {
+	background-color: #cfcfcf;
+}
+.wplf_activity img.avatar {
+	float: left;
+	margin-right: 7px;
+}
+.snippet {
+	display: none;
+}
+.form-table.wplf textarea {
+	min-width: 350px;
+	min-height: 80px;
+}

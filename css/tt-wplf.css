@@ -1,0 +1,66 @@
+a.followblog {
+	text-decoration: none;
+	padding: 0.428571rem 0.714286rem;
+	font-size: 0.985714rem;
+	line-height: 1.42857;
+	font-weight: normal;
+	color: rgb(124, 124, 124);
+	background-color: rgb(230, 230, 230);
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(center top , rgb(244, 244, 244), rgb(230, 230, 230));
+	border: 1px solid rgb(210, 210, 210);
+	border-radius: 3px;
+	box-shadow: 0px 1px 2px rgba(64, 64, 64, 0.1);
+	z-index: 9999;
+}
+a.followblog.outerButton {
+	display: block;
+	position: absolute;
+	top: 3.42857rem;
+	/*right: 12.1861%;*/
+	margin-left: 1010px;
+}
+a.followblog:hover {
+	color: rgb(94, 94, 94);
+	background-color: rgb(235, 235, 235);
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(center top , rgb(249, 249, 249), rgb(235, 235, 235));
+}
+a.followblog:active {
+	color: rgb(117, 117, 117);
+	background-color: rgb(225, 225, 225);
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(center top , rgb(235, 235, 235), rgb(225, 225, 225));
+	box-shadow: 0px 0px 8px 2px rgb(198, 198, 198) inset, 0px 1px 0px 0px rgb(244, 244, 244);
+	border: medium none;
+}
+a.followblog.followed {
+	color: #EEEEEE;
+	background: rgb(226,86,86);
+	background: -moz-linear-gradient(top, rgb(226,86,86) 0%, rgb(178,0,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(226,86,86)), color-stop(100%,rgb(178,0,0)));
+	background: -webkit-linear-gradient(top, rgb(226,86,86) 0%,rgb(178,0,0) 100%);
+	background: -o-linear-gradient(top, rgb(226,86,86) 0%,rgb(178,0,0) 100%);
+	background: -ms-linear-gradient(top, rgb(226,86,86) 0%,rgb(178,0,0) 100%);
+	background: linear-gradient(to bottom, rgb(226,86,86) 0%,rgb(178,0,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e25656', endColorstr='#b20000',GradientType=0 );
+}
+div.warning {
+	font-size: 1rem;
+	line-height: 1em;
+	line-height: 1rem;
+	max-width: 468px;
+	max-height: 108px;
+}
+div.warning h1 {
+	line-height: 3.5em;
+	line-height: 3.5rem;
+	font-size: 2.5em;
+	font-size: 2.5rem;
+}
+div.warning p {
+	font-size: 1.4em;
+	font-size: 1.4rem;
+	line-height: 1.4em;
+	line-height: 1.4rem;
+}
